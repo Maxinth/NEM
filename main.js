@@ -1,1 +1,1 @@
-console.log("initi");
+c;
