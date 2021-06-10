@@ -1,1 +1,1 @@
-console.log("log Nem");
+console.log("initi");
