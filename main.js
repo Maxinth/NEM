@@ -1,1 +1,1 @@
-console.log("new logs");
+console.log("initial setup");
