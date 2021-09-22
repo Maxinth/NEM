@@ -1,10 +1,20 @@
 "use strict";
 
-let printNumber = (arr) => {
-  arr.forEach((num) => console.log(num));
-};
+let messages = [
+  "A change of environment can be a good thing!",
+  "You will make it",
+  "Just run with the code",
+];
 
-let userName = "German";
-userName = "object";
+messages.forEach((msg) => console.log(` * ${msg}`));
 
-console.log(userName);
+/*
+To load in this file 
+
+supply node at terminal 
+
+THEN
+
+.load main.js
+
+*/
