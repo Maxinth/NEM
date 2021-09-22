@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "NEM road-map",
   "main": "main.js",
-  "type": "module", 
+  "type": "module",
   "scripts": {
-    "start": "echo \"Error: no test specified\" && exit 1",
-    "watch": "node -experimental-modules main.js"
+    "watch": "nodemon main.js"
   },
   "author": "German",
   "license": "ISC",

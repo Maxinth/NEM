@@ -1,13 +1,13 @@
 import { messages } from "./moreTests/messages.js";
-import all from "./names.cjs";
+import { names } from "./names.js";
 /* 
-the commonJs import which would ordinarily work no longer does as all files are now
-treated as es6 modules - see "type": "module" specified in package.json
-*/
-// const names = require("./names.js");
 
-const { names } = all;
+        when using es6 imports, file extension names '.js' have to be included.
+        Leaving it out will lead to an error.
+
+*/
+
 console.log(messages);
 
 console.log("msg = ", messages);
-console.log(names);
+console.log("names =", names);
