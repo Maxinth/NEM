@@ -1,11 +1,12 @@
 {
-  "name": "express-templates",
+  "name": "learn-NEM",
   "version": "1.0.0",
-  "description": "",
+  "description": "NEM road-map",
   "main": "main.js",
+  "type": "modules",
   "scripts": {
     "start": "echo \"Error: no test specified\" && exit 1",
-    "watch": "nodemon main"
+    "watch": "node -experimental-modules main.js"
   },
   "author": "German",
   "license": "ISC",
