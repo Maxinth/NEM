@@ -8,5 +8,5 @@ let messages = [
 
 messages.forEach((msg) => console.log(` * ${msg}`));
 
-module.exports = messages;
-// export { messages};
+// module.exports = messages;
+export { messages };
